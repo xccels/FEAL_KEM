@@ -18,11 +18,33 @@
 
 
 # Usage
+
 ## Downloading FEAL_KEM
+
 ## Compile
 ### Prerequisites
+Predrequisites to compile FEAL_KEM are as follows:
++ MPI
 ### Complie and build
 + Build FEAL_KEM
 + Build an example problem after guild FEAL_KEM
 + Build all
 ### Mores on compile option
+
+## Running the example
+
+# Folder structure
++ src : source files of FEAL_KEM 1.0
++ example : source files on example problem for 3D wave equation
++ include : header files are created after building
++ lib : static libraries of FEAL_KEM 1.0 are created after building
++ doc : documentation
++ run : an executable binary file for the example problem is created after building
++ tool : contains useful scripts and tools
+
+## Cite
+Please use the following bibtex, when you refer to this project
+
+
+## References
+For more information, please the reference paper and School of Mathematics and Computing (Computational Science and Engineering)
