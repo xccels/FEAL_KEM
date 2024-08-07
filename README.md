@@ -1,4 +1,4 @@
-# FEAL_KEM: CPU-based Parallel Library with Domain Decomposition Method(DDM)
+# FEAL_KEM: CPU-based Parallel Library for Electromagnetic Finite Element Analysis
 
 
 # METIS Library 
@@ -48,6 +48,14 @@ Predrequisites to compile FEAL_KEM are as follows:
 ## Cite
 Please use the following bibtex, when you refer to this project
 
+```
+@hye{FEAL_KEM,
+    title  = "CPU-based Parallel Library for Electromagnetic Finie Element Analysis",
+    author = "Na, Hyesun and Shin, Youngmin and Lee, Eunjung",
+    url    = "https://github.com/FEAL-Lab/FEAL_KEM",
+    year   = "2024"
+}
+```
 
 ## References
 For more information, please the reference paper and School of Mathematics and Computing (Computational Science and Engineering)
