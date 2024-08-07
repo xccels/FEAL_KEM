@@ -7,3 +7,8 @@ This library is for both single and many tridiagonal systems of equations. The m
 
 
 # MUMPS Library
+
+
+
+# Authors
++ 
