@@ -20,6 +20,9 @@
 # Usage
 
 ## Downloading FEAL_KEM
+The repository can be cloned as follows:
+
+Alternatively, the source files can be downloaded through github menu 'Download ZIP'.
 
 ## Compile
 ### Prerequisites
