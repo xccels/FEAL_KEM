@@ -5,7 +5,9 @@ The finite element method (FEM) has the advantage of not being limited by the ge
 Most electromagnetic analysis problems on 3D complex structures (especially in the high-frequency region) are computationally very large, depending on the size of the computational space and the accuracy of the calculation. These huge FEM algebraic systems require a large amount of storage space and a powerful linear solver. In this lab, we have developed a numerical library capable of efficient large-scale parallel calculations by utilizing MUMPS, a parallel computation library based on the multi-frontal technique.
 
 # MPI implementation in FEAL_KEM 1.0
-In FEAL_KEM 1.0, CPU acceleration is implementated using MPI. MPI-related features are as follows:
+In FEAL_KEM 1.0, CPU acceleration is implementated using MPI. 
+
+MPI-related features are as follows:
 
 # Authors
 + Hyesun Na (hyesunna@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
