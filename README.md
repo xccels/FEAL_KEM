@@ -11,4 +11,8 @@ This library is for both single and many tridiagonal systems of equations. The m
 
 
 # Authors
-+ 
++ Hyesun Na (hyesunna@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
+
++ Youngmin Shin (youngmm@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
+
++ Eunjung Lee (eunjunglee@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
