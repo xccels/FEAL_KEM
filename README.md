@@ -9,6 +9,11 @@ In FEAL_KEM 1.0, CPU acceleration is implementated using MPI.
 
 MPI-related features are as follows:
 
++ (1) Assign each subdomain to an MPI processor.
++ (2) Independently generate the local matrix for each subdomain assigned to a processor.
++ (3) Use MPI functions to exchange information according to the FETI-DP process.
++ (4) Combine the local solutions to form the global solution.
+
 # Authors
 + Hyesun Na (hyesunna@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
 
