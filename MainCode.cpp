@@ -68,7 +68,7 @@ cdouble eps = 1.0 + 0.0 * i;
 cdouble mu_d = 1.0 + 0.0 * i;
 cdouble eps_d = 2.5 - 0.5 * i;
 
-double f = 0.3 * pow(10, 9);
+double f = 5 * pow(10, 9);
 double c0 = 3 * pow(10, 8);
 double lambda = c0 / f;
 double k0 = 2 * PI / lambda;
