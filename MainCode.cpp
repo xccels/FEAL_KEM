@@ -66,7 +66,7 @@ cdouble i(0.0, 1.0); // Unit imaginary;
 cdouble mu = 1.0 + 0.0 * i;
 cdouble eps = 1.0 + 0.0 * i;
 cdouble mu_d = 1.0 + 0.0 * i;
-cdouble eps_d = 2.5 - 0.5 * i;
+cdouble eps_d = 6.645 - 2.8 * i;
 
 double f = 5 * pow(10, 9);
 double c0 = 3 * pow(10, 8);
