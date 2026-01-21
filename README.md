@@ -4,8 +4,8 @@ The finite element method (FEM) has the advantage of not being limited by the ge
 
 Most electromagnetic analysis problems on 3D complex structures (especially in the high-frequency region) are computationally very large, depending on the size of the computational space and the accuracy of the calculation. These huge FEM algebraic systems require a large amount of storage space and a powerful linear solver. In this lab, we have developed a numerical library capable of efficient large-scale parallel calculations by utilizing MUMPS, a parallel computation library based on the multi-frontal technique.
 
-# MPI implementation in FEAL_KEM 1.0
-In FEAL_KEM 1.0, CPU acceleration is implementated using MPI. 
+# MPI implementation in FEAL_KEM 2.0
+In FEAL_KEM 2.0, CPU acceleration is implementated using MPI. 
 
 MPI-related features are as follows:
 
@@ -15,11 +15,11 @@ MPI-related features are as follows:
 + (4) Combine the local solutions to form the global solution.
 
 # Authors
-+ Hyesun Na (hyesunna@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
++ Hyesun Na (hyesunna@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v2.0)
 
-+ Youngmin Shin (youngmm@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
++ Youngmin Shin (youngmm@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v2.0)
 
-+ Eunjung Lee (eunjunglee@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v1.0)
++ Eunjung Lee (eunjunglee@yonsei.ac.kr), School of Mathematics and Computing(Computational Science and Engineering), Yonsei University (v2.0)
 
 
 # Usage
@@ -45,10 +45,10 @@ Predrequisites to compile FEAL_KEM are as follows:
 ## Running the example
 
 # Folder structure
-+ `src` : source files of FEAL_KEM 1.0
++ `src` : source files of FEAL_KEM
 + `example` : source files on example problem for 3D wave equation
 + `include` : header files are created after building
-+ `lib` : static libraries of FEAL_KEM 1.0 are created after building
++ `lib` : static libraries of FEAL_KEM are created after building
 + `doc` : documentation
 + `run` : an executable binary file for the example problem is created after building
 + `tool` : contains useful scripts and tools
@@ -61,7 +61,7 @@ Please use the following bibtex, when you refer to this project
     title  = "CPU-based Parallel Library for Electromagnetic Finie Element Analysis",
     author = "Na, Hyesun and Shin, Youngmin and Lee, Eunjung",
     url    = "https://github.com/xccels/FEAL_KEM",
-    year   = "2024"
+    year   = "2026"
 }
 ```
 
